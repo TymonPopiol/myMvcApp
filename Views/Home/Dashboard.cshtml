@@ -1,0 +1,14 @@
+<h2>Witaj w Dashboardzie,@ViewBag.User!</h2>
+<p>Jestes zalogowany jako admin</p>
+<div class="zegar" id="clock" style="font: size 24px;font-weight:bold;margin-top: 20px;">
+</div>
+<script>
+    function updateClock(){
+        let now = new Date();
+        let timeString = now.toLocaleTimeString();
+        document.getElementById("clock").innerText=timeString;
+    }
+    setInterval(updateClock,1000);
+    updateClock();
+</script>
+

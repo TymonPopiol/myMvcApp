@@ -1,0 +1,71 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.zegar{
+  font-size: 40px;
+  color:darkgoldenrod;
+  font-family: cursive;
+}
+.container-fluid{
+  background-color: #272626;
+  padding: 20px;
+}
+.navbar-brand{
+  background-color: #00b126;
+  color:black;
+}
+.navbar-brand:hover {
+  background-color: #555;
+  color: rgb(255, 255, 255);
+}
+ul {
+  background-color: #272626;
+}
+li{
+  background-color: #00b126;
+  color:black;
+  margin-right: 3px;
+}
+a {
+  display: block;
+  padding: 8px;
+}
+li a:hover {
+  background-color: #555;
+  color: rgb(255, 255, 255);
+}
+h1{
+  font-family: fantasy;
+}
+.instrukcja{
+  font-family: 'Franklin Gothic Medium';
+  font-size: medium;
+}
+h2{
+  font-family: 'Franklin Gothic Medium';
+  color: green;
+}
+button{
+  font-family: 'Franklin Gothic Medium';
+  color: green;
+}
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: azure;
+}
